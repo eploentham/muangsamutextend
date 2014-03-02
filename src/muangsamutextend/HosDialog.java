@@ -153,7 +153,7 @@ public final class HosDialog {
             Constant.println("printDrugSummaryVn " + theHC.theHO.theVisit.getObjectId());
             Constant.println("date_current= " + theHC.theHO.date_time.substring(0, 10));
             boolean retp = initPrintDrug("drug_summary_vn_stricker_ipd",1,o,null,false);
-            theHC.theHosDB.theOrderItemDB
+            //theHC.theHosDB.theOrderItemDB
         }catch(Exception ex){
             theUS.setStatus("printDrugSummaryVnIPD "+ex.getMessage(),UpdateStatus.ERROR);
             ex.printStackTrace(Constant.getPrintStream());
